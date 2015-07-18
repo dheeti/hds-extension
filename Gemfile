@@ -1,8 +1,8 @@
 source 'http://rubygems.org'
 
   gem 'rake'
-  gem 'pry'
-  gem 'pry-byebug'
+  gem 'pry', '~> 0.9.10'
+  gem 'pry-nav', '~> 0.2.2', platforms: [:ruby_21, :ruby_22]
 
   gem 'logging'
   gem 'mongoid'
